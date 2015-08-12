@@ -9,6 +9,13 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *latitude;
+@property (weak, nonatomic) IBOutlet UILabel *longitude;
+@property (weak, nonatomic) IBOutlet UILabel *address;
+
+
+- (IBAction)buttonPressed:(id)sender;
+
 
 @end
 
@@ -24,4 +31,6 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonPressed:(id)sender {
+}
 @end
