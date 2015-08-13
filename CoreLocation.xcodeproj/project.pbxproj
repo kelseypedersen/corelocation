@@ -14,6 +14,7 @@
 		A82FAEB91B7C12DA00C106D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A82FAEB81B7C12DA00C106D9 /* Images.xcassets */; };
 		A82FAEBC1B7C12DA00C106D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A82FAEBA1B7C12DA00C106D9 /* LaunchScreen.xib */; };
 		A82FAEC81B7C12DA00C106D9 /* CoreLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A82FAEC71B7C12DA00C106D9 /* CoreLocationTests.m */; };
+		A82FAED21B7C152200C106D9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82FAED11B7C152200C106D9 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		A82FAEC11B7C12DA00C106D9 /* CoreLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A82FAEC61B7C12DA00C106D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A82FAEC71B7C12DA00C106D9 /* CoreLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreLocationTests.m; sourceTree = "<group>"; };
+		A82FAED11B7C152200C106D9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A82FAED21B7C152200C106D9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		A82FAE9F1B7C12DA00C106D9 = {
 			isa = PBXGroup;
 			children = (
+				A82FAED11B7C152200C106D9 /* CoreLocation.framework */,
 				A82FAEAA1B7C12DA00C106D9 /* CoreLocation */,
 				A82FAEC41B7C12DA00C106D9 /* CoreLocationTests */,
 				A82FAEA91B7C12DA00C106D9 /* Products */,
